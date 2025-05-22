@@ -6,6 +6,7 @@ const names = ['tom', 'bruce', 'adam', 'zoe','clara'];
 sortNames(names);
 console.log(names);
 
+//sortiert zahlen
 function sortNum(numbers: number[]){
   let swapped: boolean;
   let numberofSortedElements = 0;
@@ -24,6 +25,7 @@ function sortNum(numbers: number[]){
   } while (swapped);
 }
 
+//sort Texts
 function sortNames(names: string[]){
   let swapped: boolean;
   let numberofSortedElements = 0;
